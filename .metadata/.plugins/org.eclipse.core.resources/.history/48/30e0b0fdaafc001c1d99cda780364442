@@ -1,0 +1,19 @@
+package com.teste.calculadora.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/calculadora")
+public class CalcuadoraController {
+	
+	@ResponseBody
+	@GetMapping("/somar/{a}/{b}")
+	public String metodo (@PathVariable("a") int a, @PathVariable("b") int b) {
+		return "ok";
+	}
+
+}

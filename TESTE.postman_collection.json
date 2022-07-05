@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "0c8b307a-da70-4223-8c23-72e91d240dda",
+		"name": "TESTE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5931682"
+	},
+	"item": [
+		{
+			"name": "SOMAR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/calculadora/somar/1/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"calculadora",
+						"somar",
+						"1",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SUBTRAIR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/calculadora/subtrair/1/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"calculadora",
+						"subtrair",
+						"1",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
